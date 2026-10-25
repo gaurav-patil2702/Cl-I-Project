@@ -1,0 +1,57 @@
+{
+  "model": "Random Forest Classifier",
+  "test_rows": 338,
+  "accuracy": 1.0,
+  "precision_anomalous": 1.0,
+  "recall_anomalous": 1.0,
+  "f1_anomalous": 1.0,
+  "confusion_matrix": [
+    [
+      250,
+      0
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "classification_report": {
+    "normal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 250.0
+    },
+    "anomalous": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 88.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 338.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 338.0
+    }
+  },
+  "feature_importances": {
+    "flow_duration_us": 0.008518624378783165,
+    "src_bytes": 0.051794010388470695,
+    "dst_bytes": 0.02548863917199627,
+    "packet_count": 0.22852678526949727,
+    "packet_rate_per_sec": 0.10614942066880505,
+    "failed_connections": 0.3995893784982741,
+    "unique_dst_ports": 0.021962924673486605,
+    "dst_port": 0.15787486983205096,
+    "protocol_code": 9.534711863575074e-05
+  },
+  "roc_auc": 1.0
+}
